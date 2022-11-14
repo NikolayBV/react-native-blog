@@ -4,7 +4,7 @@ export interface IPost{
     title: string,
     body: string,
     userName?: string,
-    author: string,
+    author?: string,
 }
 
 export interface IUser{

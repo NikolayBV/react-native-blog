@@ -12,7 +12,7 @@ const PostsList = () => {
                 <Text>{post.body}</Text>
                 <Text>{post.userName || post.author}</Text>
             </View>
-            )};
+            )}
         </View>
     );
 };
